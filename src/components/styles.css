@@ -1,0 +1,29 @@
+body {
+  background-color: #fffcf9;
+  font-family: "Poppins", sans-serif;
+}
+
+.loginform {
+  width: 30%;
+  margin: auto;
+  background: rgb(144, 175, 187);
+  margin-top: 10%;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.loginform input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 2px solid #677680de;
+  border-radius: 8px;
+  margin: 5px 8px;
+  padding: 10px;
+  outline: none;
+  width: 60%;
+  font-family: inherit;
+}
+.loginform label {
+  margin-left: 10px;
+}
